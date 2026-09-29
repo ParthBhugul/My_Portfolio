@@ -23,9 +23,9 @@ function Hero() {
           {/* Character */}
           <div className="hero-character">
             <img
-              src="/character.png"
-              alt="Developer character"
-            />
+  src={`${import.meta.env.BASE_URL}character.png`}
+  alt="Developer character"
+/>
           </div>
 
         </div>

@@ -21,7 +21,7 @@ function Projects() {
           <article
             className="project-card project-keshavsoft"
             style={{
-              backgroundImage: "url('/projects/KeshavSoft.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}projects/KeshavSoft.png)`,
             }}
           >
             <div className="project-overlay">
@@ -74,7 +74,7 @@ function Projects() {
           <article
             className="project-card"
             style={{
-              backgroundImage: "url('/projects/Summarizer.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}projects/Summarizer.png)`,
             }}
           >
             <div className="project-overlay">
@@ -127,7 +127,7 @@ function Projects() {
           <article
             className="project-card"
             style={{
-              backgroundImage: "url('/projects/Complaint-Register.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}projects/Complaint-Register.png)`,
             }}
           >
             <div className="project-overlay">
